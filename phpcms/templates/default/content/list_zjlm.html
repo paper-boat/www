@@ -1,0 +1,45 @@
+{template "content", "myheader"}
+     <link rel="stylesheet" href="{CSS_PATH}mycss/inverstor.css">
+   	  <link rel="stylesheet" href="{CSS_PATH}mycss/list_zjlm.css">
+   	  <script src="{JS_PATH}myjs/jquery.js"></script>
+   		{template "content", "mybanner"}
+	<!-- 下部分 -->
+	{template "content", "myleft"}
+		   <div class="ac_con"> 
+         {pc:content action="lists" num="1" siteid="$siteid" moreinfo="1" order="id ASC" catid="$catid"  thumb="1"}
+                {loop $data $v}
+                <div class="part03 clearfix">
+          <div class="pic" style=" background:url({IMG_PATH}images/picbg3.jpg) no-repeat;"><a href=""><img src="{$v[thumb]}" height="75" width="75"></a></div>
+          <div class="tit"><a href="">
+        <h3>{$v[title]}</h3>
+        </a> </div>
+                     <div class="tit2">{$v[content]}</div>
+    </div>
+           {/loop}
+           {/pc}
+
+                <div class="in_list2 clearfix">
+                   <div class="name03"></div>
+                   <ul>
+                     {pc:content action="lists" num="3" siteid="$siteid"  order="id ASC LIMIT 1,3--" catid="$catid"}
+                      {loop $data $v}
+                      <li style=" background: url({IMG_PATH}images/dot7.jpg) no-repeat 0 10px;">
+                        <a href="{$v[url]}">
+                        <span>{$v[title]}</span>
+                        <span class="down">{date("Y.m.d",$v[inputtime])}</span> 
+                        </a>
+                      </li>
+                     {/loop}
+                     {/pc}
+                    </ul>
+                    <a href="{$CATEGORYS[44][url]}" class="more">更多&gt;&gt;</a> </div>
+                    <div class="scott"></div>  
+                    </div>   
+
+    </div>
+    
+		
+	</div>
+	
+ {template "content", "myfooter"}
+

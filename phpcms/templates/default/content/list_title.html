@@ -1,0 +1,22 @@
+{template "content", "myheader"}
+     <link rel="stylesheet" href="{CSS_PATH}mycss/inverstor.css">
+   	  <link rel="stylesheet" href="{CSS_PATH}mycss/list_title.css">
+   		{template "content", "mybanner"}
+	<!-- 下部分 -->
+	{template "content", "myleft"}
+		    
+            <div class="cont">
+            	 {pc:content action="lists" num="1" siteid="$siteid" moreinfo="1" order="id ASC" catid="$catid"}
+      {loop $data $v}
+	           <h2>{$v[title]}</h2>
+	          <p>{$v[content]}</p>
+	           {/loop}
+          {/pc}
+            </div>
+        
+         </div>
+		
+	</div>
+	
+ {template "content", "myfooter"}
+

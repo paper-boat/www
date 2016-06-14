@@ -1,0 +1,32 @@
+.bigpic {
+    width: 400px;
+    margin: 25px auto 10px auto;
+    height: 240px;
+    padding-bottom: 10px;
+    
+}
+.pic {
+    height: 220px;
+}
+.highslide {
+    outline: none;
+    text-decoration: none;
+}
+.bigpic .pic img {
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 5px;
+    border: 1px solid #b7b7b7;
+}
+.ck {
+    float: right;
+}
+.des {
+    width: 400px;
+    margin: 25px auto 10px auto;
+}
+.des_more {
+    width: 380px;
+    margin: 25px auto 10px auto;
+    padding-left: 15px;
+}

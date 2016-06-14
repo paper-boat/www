@@ -1,0 +1,26 @@
+{template "content", "myheader"}
+     <link rel="stylesheet" href="{CSS_PATH}mycss/inverstor.css">
+   	  <link rel="stylesheet" href="{CSS_PATH}mycss/list_img1.css">
+   	  <script src="{JS_PATH}myjs/jquery.js"></script>
+   	  <script src="{JS_PATH}myjs/big.js"></script>
+   		{template "content", "mybanner"}
+	<!-- 下部分 -->
+	{template "content", "myleft"}
+		    
+            <div class="cont highslide-gallery">
+
+            	 {pc:content action="lists" num="13" siteid="$siteid" moreinfo="1" order="id ASC" catid="$catid" thumb="1"}
+                {loop $data $v}
+				<div class="pic01">
+					<a class="highslide" href="##"><img src="{$v[thumb]}" alt="" height="196",width="155"></a>
+				</div>
+				{/loop}
+				{/pc}
+			</div>
+        
+         </div>
+		
+	</div>
+	
+ {template "content", "myfooter"}
+

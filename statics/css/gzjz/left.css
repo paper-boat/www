@@ -1,0 +1,74 @@
+.web_conTop {
+    background: url(../../images/gzjz/jbxx/web_conTop.jpg) no-repeat center top;
+    margin: 0 auto;
+    width: 100%;
+    height: 203px;
+}
+.contop_Info {
+    width: 980px;
+    margin: 0 auto;
+    padding-top: 160px;
+}
+.webcon_tit {
+    font: bold 24px/30px '微软雅黑';
+    color: #1983d5;
+    float: left;
+    padding-left: 22px;
+}
+.webcon_nav span {
+    color: #009ee4;
+    text-indent: 1em;
+    background: url(../../images/gzjz/jbxx/dwbz.png) left bottom no-repeat;
+    height: 12px;
+    display: block;
+    float: left;
+}
+.webcon_nav {
+    float: right;
+    display: inline;
+    padding-top: 16px;
+    _padding-top: 18px;
+    /*padding-top: 18px\9;*/
+}
+.web_conBom {
+    background: url(../../images/gzjz/jbxx/web_conBom.jpg) top no-repeat #fff;
+    margin: 0 auto;
+    min-height: 550px;
+}
+.conbom_info {
+    width: 980px;
+    margin: 0 auto;
+}
+.fixed {
+    min-height: 1%;
+}
+.fixed {
+    display: block;
+}
+.webbom_menu {
+    width: 214px;
+    float: left;
+    background: #fff;
+    box-shadow: 0px 0px 7px #e4e5e5;
+    margin: 0 auto;
+    border: 1px solid #e4e5e5;
+}
+.webbom_menu ul {
+    width: 180px;
+    margin: 0 auto;
+    padding-top: 15px;
+    padding-bottom: 23px;
+}
+.webbom_menu ul li {
+    line-height: 29px;
+    border-bottom: 1px dashed #dadada;
+}
+.webbom_menu ul li a {
+    display: block;
+    width: 180px;
+    height: 29px;
+}
+.webbom_menu ul li:nth-child(1) a{
+    color: #fff;
+    background: url(../../images/gzjz/jbxx/conmenuOn.gif) center no-repeat;
+}

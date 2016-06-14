@@ -1,0 +1,21 @@
+{template "content", "myheader"}
+     <link rel="stylesheet" href="{CSS_PATH}mycss/list_title.css">
+   		
+   	{template "content", "mybanner"}
+	<!-- 下部分 -->
+	{template "content", "myleft"}
+		     
+		     <div class="cont">
+            {pc:content  action="position" posid="30" moreinfo="1" num="2" order="id ASC" catid="33"}
+             {loop $data $v}
+	           <h2>{$v[title]}</h2>
+	          <p>{$v[content]}</p>
+	           {/loop}
+          {/pc}
+            </div>
+        
+         </div>
+		
+	</div>
+	
+ {template "content", "myfooter"}

@@ -1,0 +1,35 @@
+.scott {
+    font-size: 12px;
+    padding: 10px 0 15px 0;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    float:left;
+}
+.right_1 .in_list2 {
+    margin-bottom: 15px;
+    width:620px;
+}
+.right_1 .in_list2 ul li {
+    padding-left: 15px;
+    padding-bottom: 5px;
+    width: 620px;
+    float: left;
+}
+.right_1 .in_list2 ul li a {
+    width: 97%;
+    padding-left: 5px;
+    display: block;
+    line-height: 30px;
+    color: #778072;
+    border-bottom: #d5d2d2 1px solid;
+    float: left;
+    font-size:12px;
+}
+.right_1 .in_list2 li .down {
+    float: right;
+    padding-left: 20px;
+    display: block;
+    line-height: 30px;
+    color: #778072;
+}

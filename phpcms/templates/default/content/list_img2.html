@@ -1,0 +1,37 @@
+{template "content", "myheader"}
+   	  <link rel="stylesheet" href="{CSS_PATH}mycss/list_img2.css">
+   	  <script src="{JS_PATH}myjs/jquery.js"></script>
+      <script src="{JS_PATH}myjs/zcy_index.js"></script>
+   		{template "content", "mybanner"}
+	<!-- 下部分 -->
+	{template "content", "myleft1"}
+
+        <div id="byy"> 
+          {if $catid=="52"}
+        <img src="{IMG_PATH}images/pro_list.jpg" usemap="#Map">
+         {/if}   </div>
+            {pc:content action="lists" num="12" siteid="$siteid" order="listorder ASC" catid="$catid" page="$page"}
+            {loop $data $v}
+            <div class="pro_pic01">
+              <a href="{$v[url]}">
+                <img src="{$v[thumb]}" height="156" width="156">
+              </a>
+              <a href="{$v[url]}" class="pictitle">{$v[title]}</a>
+            </div>
+          {/loop}
+          {/pc}
+            <div class="scott">
+              <div class="scott1">
+                      {$pages}
+        </div>
+        <script>
+        $(".scott1>.a1:first").css("display","none")
+        </script>
+            </div>
+
+
+    </div>
+    
+  </div>
+		   <!--  -->
+ {template "content", "myfooter"}

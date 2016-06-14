@@ -1,0 +1,47 @@
+.right_1 .in_list {
+    margin-bottom: 15px;
+     width:620px;
+}
+.right_1 .name03 {
+    font-size: 16px;
+    color: #2889c0;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    position: relative;
+}
+.right_1 .in_list ul li {
+     width:620px;
+    padding-left: 15px;
+    padding-bottom: 5px;
+    float: left;
+}
+.right_1 .in_list ul li a {
+    width: 97%;
+    padding-left: 5px;
+    display: block;
+    line-height: 30px;
+    color: #778072;
+    border-bottom: #d5d2d2 1px solid;
+    float: left;
+    font-size: 14px;
+}
+.right_1 .in_list li .down {
+    float: right;
+    padding-left: 20px;
+    display: block;
+    line-height: 30px;
+    color: #778072;
+}
+.scott {
+    font-size: 12px;
+    padding: 20px 0 15px 0;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+.scott1{
+    margin: 0 auto;
+width: 220px;
+height: 22px;
+line-height: 22px;
+}

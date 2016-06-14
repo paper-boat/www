@@ -1,0 +1,136 @@
+<?php
+return array (
+  26 => 
+  array (
+    'posid' => '26',
+    'modelid' => '1',
+    'catid' => '12',
+    'name' => '投资者关系信息公告推荐',
+    'maxnum' => '20',
+    'extention' => '',
+    'listorder' => '0',
+    'siteid' => '1',
+    'thumb' => '',
+  ),
+  29 => 
+  array (
+    'posid' => '29',
+    'modelid' => '1',
+    'catid' => '32',
+    'name' => '主题活动专家专栏推荐',
+    'maxnum' => '20',
+    'extention' => '',
+    'listorder' => '0',
+    'siteid' => '1',
+    'thumb' => '',
+  ),
+  28 => 
+  array (
+    'posid' => '28',
+    'modelid' => '1',
+    'catid' => '32',
+    'name' => '主题活动近期活动1推荐',
+    'maxnum' => '20',
+    'extention' => '',
+    'listorder' => '0',
+    'siteid' => '1',
+    'thumb' => '',
+  ),
+  27 => 
+  array (
+    'posid' => '27',
+    'modelid' => '1',
+    'catid' => '32',
+    'name' => '主题活动近期活动推荐',
+    'maxnum' => '20',
+    'extention' => '',
+    'listorder' => '0',
+    'siteid' => '1',
+    'thumb' => '',
+  ),
+  24 => 
+  array (
+    'posid' => '24',
+    'modelid' => '1',
+    'catid' => '10',
+    'name' => '新闻资讯企业新闻推荐',
+    'maxnum' => '20',
+    'extention' => '',
+    'listorder' => '0',
+    'siteid' => '1',
+    'thumb' => '',
+  ),
+  23 => 
+  array (
+    'posid' => '23',
+    'modelid' => '1',
+    'catid' => '10',
+    'name' => '新闻资讯热点新闻推荐',
+    'maxnum' => '20',
+    'extention' => '',
+    'listorder' => '0',
+    'siteid' => '1',
+    'thumb' => '',
+  ),
+  22 => 
+  array (
+    'posid' => '22',
+    'modelid' => '1',
+    'catid' => '11',
+    'name' => '品牌产品医疗服务推荐',
+    'maxnum' => '20',
+    'extention' => '',
+    'listorder' => '0',
+    'siteid' => '1',
+    'thumb' => '',
+  ),
+  21 => 
+  array (
+    'posid' => '21',
+    'modelid' => '1',
+    'catid' => '0',
+    'name' => '首页近期活动推荐',
+    'maxnum' => '20',
+    'extention' => '',
+    'listorder' => '0',
+    'siteid' => '1',
+    'thumb' => '',
+  ),
+  19 => 
+  array (
+    'posid' => '19',
+    'modelid' => '1',
+    'catid' => '0',
+    'name' => '首页企业新闻推荐',
+    'maxnum' => '20',
+    'extention' => '',
+    'listorder' => '0',
+    'siteid' => '1',
+    'thumb' => '',
+  ),
+  25 => 
+  array (
+    'posid' => '25',
+    'modelid' => '1',
+    'catid' => '10',
+    'name' => '新闻资讯媒体报道推荐',
+    'maxnum' => '20',
+    'extention' => '',
+    'listorder' => '0',
+    'siteid' => '1',
+    'thumb' => '',
+  ),
+  30 => 
+  array (
+    'posid' => '30',
+    'modelid' => '1',
+    'catid' => '31',
+    'name' => '公司介绍公司概况推荐',
+    'maxnum' => '20',
+    'extention' => '',
+    'listorder' => '0',
+    'siteid' => '1',
+    'thumb' => '',
+  ),
+);
+?>

@@ -1,0 +1,24 @@
+<link rel="stylesheet" href="{CSS_PATH}mycss/left.css">
+<script src="{JS_PATH}myjs/jquery.js"></script>
+<script src="{JS_PATH}myjs/left.js"></script>
+<div id="container" style="background:url({IMG_PATH}images/conbg.png) repeat-y">
+		<div class="sidebar">
+			
+			<div class="left_title" style="background:url({IMG_PATH}images/brand_pic2.jpg) no-repeat">{$CATEGORYS[51][catname]}</div> 
+       {pc:content action="category" catid="51" num="12" order="listorder ASC"}
+          <ul class="left b3">
+            {loop $data $v}
+				<li><a href="{$v[url]}">{$v[catname]}</a></li>
+			{/loop}
+			
+			</ul>
+			{/pc}
+		</div>
+		<div class="right_1">
+			<div class="quicklink">
+				{if $parentid==51}
+				{catpos($parentid)}{$catname}
+				{else}
+				{catpos(51)}{$catname}{$CATEGORYS[$catid][catname]}
+				{/if}
+			</div>

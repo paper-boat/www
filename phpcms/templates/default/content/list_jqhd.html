@@ -1,0 +1,29 @@
+{template "content", "myheader"}
+     <link rel="stylesheet" href="{CSS_PATH}mycss/inverstor.css">
+   	  <link rel="stylesheet" href="{CSS_PATH}mycss/list_jqhd.css">
+   	  <script src="{JS_PATH}myjs/jquery.js"></script>
+   		{template "content", "mybanner"}
+	<!-- 下部分 -->
+	{template "content", "myleft"}
+		    {pc:content action="lists" num="6" siteid="$siteid" moreinfo="1" order="id ASC" catid="$catid"  thumb="1"}
+                {loop $data $v}
+			<div  class="part02">
+                 <div class="pic">
+                 	<a href="{$v[url]}"><img src="{$v[thumb]}" height="90" width="160"></a>
+                 </div>
+                 <div class="tit">
+                 	<a href="{$v[url]}"><h3>{$v[title]}</h3></a> 
+                 </div>
+                 <div class="tit2">{str_cut(strip_tags($v[content]),300,'...')}<br>
+                 <a href="{$v[url]}" class="more01">查看详情&gt;&gt;</a>
+                 </div>     
+           </div>
+          {/loop}
+          {/pc}
+		<div class="scott"></div>
+     </div>
+		
+	</div>
+	
+ {template "content", "myfooter"}
+

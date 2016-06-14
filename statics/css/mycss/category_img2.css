@@ -1,0 +1,137 @@
+#container {
+    overflow: hidden;
+    padding: 0 31px;
+    padding-top: 3px;
+    width: 936px;
+    margin: 0 auto;
+}
+.con_title {
+    border-bottom: 1px solid #ccc;
+    height: 30px;
+    line-height: 28px;
+    margin: 0 auto;
+    width: 900px;
+    margin-bottom: 2px;
+}
+.con_title span {
+    font-size: 18px;
+    float: left;
+    color: #eeb418;
+    height: 29px;
+    border-bottom: 2px solid #c09305;
+}
+#pro_banner {
+    clear: both;
+    overflow: hidden;
+    width: 100%;
+}
+#pro_banner .imagebg {
+    height: 430px;
+    overflow: hidden;
+    position: relative;
+}
+
+#pro_banner .imagebg li {
+    height: 430px;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: block;
+}
+.bannerbg{
+   display: none;
+}
+.bannerbg_main {
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 430px;
+}
+.scroll {
+    margin: 0 auto;
+    width: 600px;
+    height: 100px;
+    position: relative;
+}
+a.s_pre, a.s_pre:hover {
+    top: 4px;
+    left: 0;
+}
+.outScroll_pic {
+    height: 90px;
+    margin-left: 61px;
+    overflow: hidden;
+    position: relative;
+    width: 467px;
+    top: 2px;
+    overflow: hidden;
+}
+.outScroll_pic .scroll_pic {
+    position: absolute;
+}
+.scroll_pic {
+    margin: 0 auto;
+    width: 40000px;
+    height: 76px;
+}
+.scroll_pic li {
+    float: left;
+    width: 58px;
+    height: 58px;
+    margin: 5px 10px 0 10px;
+    _margin: 5px 15px 5px 5px;
+    cursor: pointer;
+    position: relative;
+}
+.scroll_pic li img {
+    -moz-opacity: 1;
+    opacity: 1;
+    width: 48px;
+    height: 48px;
+    float: left;
+    display: block;
+    padding: 4px 0 0 4px;
+}
+#pro_banner .currently p {
+    color: #e8ab08;
+}
+.outScroll_pic p {
+    width: 80px;
+    z-index: 999;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    color: #e8ab08;
+    position: absolute;
+    left: -10px;
+    top: 63px;
+}
+.s_pre, .s_next {
+    display: block;
+    width: 33px;
+    height: 60px;
+    position: absolute;
+}
+a.s_pre, a.s_pre:hover {
+    
+    top: 4px;
+    left: 0;
+}
+a.s_next, a.s_next:hover {
+    top: 4px;
+    right: 0;
+}
+.current {
+    width: 57px;
+    height: 58px;
+    z-index: 10;
+    position: absolute;
+    top: 6px;
+    left: 0;
+}
+

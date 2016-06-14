@@ -1,0 +1,89 @@
+
+.right_1 .part {
+    margin: 15px auto 10px auto;
+}
+.right_1 .part .tit {
+    width: 480px;
+    height: 26px;
+    float: right;
+}
+.right_1 .title {
+    border-bottom: 1px solid #ccc;
+    height: 35px;
+    line-height: 35px;
+}
+
+.right_1 .title .link {
+    float: right;
+    color: #666;
+}
+.right_1 .line {
+    border-bottom: 1px dashed #ccc;
+    overflow: hidden;
+    padding-bottom: 5px;
+}
+.right_1 .part .pic {
+    width: 109px;
+    height: 75px;
+    padding: 12px 11px;
+    float: left;
+}
+
+.right_1 .part .aa {
+    width: 515px;
+}
+.right_1 .part .tit h3 {
+    font-size: 14px;
+    color: #0c94af;
+    float: left;
+    width: 388px;
+    height: 26px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.right_1 .part .aa h3 {
+    color: #eeb418;
+    font-weight: bold;
+}
+.right_1 .part .tit span {
+    font-size: 14px;
+    color: #778072;
+    float: right;
+}
+.right_1 .part .tit2 {
+    width: 480px;
+    float: right;
+    line-height: 20px;
+    text-indent: 24px;
+}
+.right_1 .part .bb {
+    width: 515px;
+}
+
+
+
+.right_1 .line {
+    border-bottom: 1px dashed #ccc;
+    overflow: hidden;
+    padding-bottom: 5px;
+}
+.right_1 .part .aa1 {
+    width: 650px;
+}
+.right_1 .part .aa1 h3 {
+    font-size: 14px;
+    color: #eeb418;
+    display: block;
+    font-weight: bold;
+}
+.right_1 .part .tit span {
+    font-size: 14px;
+    color: #778072;
+    float: right;
+}
+
+.right_1 .part .bb1 {
+    width: 650px;
+}
+

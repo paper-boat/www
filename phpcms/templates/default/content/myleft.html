@@ -1,0 +1,53 @@
+<link rel="stylesheet" href="{CSS_PATH}mycss/left.css">
+<script src="{JS_PATH}myjs/jquery.js"></script>
+<script src="{JS_PATH}myjs/left.js"></script>
+<div id="container" style="background:url({IMG_PATH}images/conbg.png) repeat-y">
+		<div class="sidebar">
+			
+			<div class="left_title" {if $top_parentid=="31"}style="background:url({IMG_PATH}images/about_pic2.jpg) no-repeat"
+{elseif $top_parentid=="10"}style="background:url({IMG_PATH}images/ir_pic2.jpg) no-repeat"
+{elseif $top_parentid=="11"}style="background:url({IMG_PATH}images/brand_pic2.jpg) no-repeat"
+{elseif $top_parentid=="12"}style="background:url({IMG_PATH}images/news_pic2.jpg) no-repeat"
+{elseif $top_parentid=="32"}style="background:url({IMG_PATH}images/ac_pic2.jpg) no-repeat"{/if}>
+{$CATEGORYS[$top_parentid][catname]}</div> 
+
+  {pc:content action="category" catid="$top_parentid" num="20" order="listorder ASC"}
+<ul {if $top_parentid=="31"} class="left b1"
+{elseif $top_parentid=="10"}class="left b2"
+{elseif $top_parentid=="11"}class="left b3"
+{elseif $top_parentid=="12"}class="left b4"
+{elseif $top_parentid=="32"}class="left b5"{/if}>
+		  
+            {loop $data $v}
+				<li><a href="{$v[url]}">{$v[catname]}</a></li>
+			{/loop}
+			
+			</ul>
+			{/pc}
+		</div>
+		<div class="right_1 long">
+		     <div class="title">
+		     	<span {if $top_parentid=="31"} class="c1"
+                      {elseif $top_parentid=="10"}class="c2"
+                      {elseif $top_parentid=="11"}class="c3"
+                      {elseif $top_parentid=="12"}class="c4"
+                      {elseif $top_parentid=="32"}class="c5"{/if}>
+                     {$CATEGORYS[$catid][catname]}</span>
+		     	<div class="link">
+		     		<a href="{siteurl($siteid)}">首页</a><span id="sp">></span> 
+		     		 <a href="{$v[url]}">{$CATEGORYS[$top_parentid][catname]}</a>
+		     		{if $catid!=$top_parentid}
+		     		<span id="sp">></span> 
+		     		<a href="{$CATEGORY[$top_parentids][url]">{$CATEGORYS[$catid][catname]} </a>
+		     		{/if}
+		     	</div>
+
+		     	
+		     </div>
+
+
+
+
+
+
+		    

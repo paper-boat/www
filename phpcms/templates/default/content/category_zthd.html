@@ -1,0 +1,63 @@
+{template "content", "myheader"}
+     <link rel="stylesheet" href="{CSS_PATH}mycss/category_zthd.css">
+   		
+   	{template "content", "mybanner"}
+	<!-- 下部分 -->
+	{template "content", "myleft"}
+		     <div class="ac_con"> 
+                <div class="ac_intro clearfix"> 
+                   <div class="name04">{$CATEGORYS[38][catname]}</div>
+                   {pc:content  action="position" posid="27" moreinfo="1" num="2" order="id ASC" catid="38"}
+                  {loop $data $v}
+                    <div style="float:right;margin-left:10px;"> 
+                    	<img src="{$v[thumb]}" height="154" width="258">
+                    </div>
+                    <a href="##"> 
+                    	<span>{$v[title]}</span>
+                    </a>  
+                      {str_cut(strip_tags($v[content]),520,'...')}
+                </div>
+                {/loop}
+                {/pc}
+                <div class="in_list2 clearfix">
+                   <div class="name03"></div>
+                   <ul>
+                   	 {pc:content  action="position" posid="28" moreinfo="1" num="3" order="id ASC" catid="38"}
+                  {loop $data $v}
+                      <li style="background: url({IMG_PATH}images/dot7.jpg) no-repeat 0 10px;">
+                      	<a href="{$v[url]}">
+                      	<span>{$v[title]}</span>
+                      	<span class="down">{date("Y.m.d",$v[inputtime])}</span> 
+                        </a>
+                      </li>
+                      {/loop}
+                      {/pc}
+                    </ul>
+                    <a href="{$CATEGORYS[38][url]}" class="more">更多&gt;&gt;</a> </div> 
+                    </div>
+
+                 <div class="name04 clearfix">{$CATEGORYS[42][catname]}</div>
+                   <div class="in_list2">
+                   <div class="name03"></div>
+                   <ul>
+                   	 {pc:content  action="position" posid="29" moreinfo="1" num="3" order="id ASC" catid="42"}
+                     {loop $data $v}
+                      <li style="background: url({IMG_PATH}images/dot7.jpg) no-repeat 0 10px;">
+                      	<a href="{$v[url]}">
+                      	<span>{$v[title]}</span>
+                      	<span class="down">{date("Y.m.d",$v[inputtime])}</span> 
+                        </a>
+                      </li>
+                     {/loop}
+                     {/pc}
+                    </ul>
+                    <a href="a{$CATEGORYS[42][url]}" class="more">更多&gt;&gt;</a> 
+                </div>     
+
+
+
+         </div>
+		<div class="scott"></div>
+	</div>
+	
+ {template "content", "myfooter"}

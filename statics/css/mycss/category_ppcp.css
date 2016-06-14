@@ -1,0 +1,121 @@
+.right_1 .pro {
+    margin-top: 15px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px dashed #ccc;
+}
+.clearfix {
+    overflow: hidden;
+    _zoom: 1;
+}
+.right_1 .pro p {
+    text-indent: 24px;
+    font-size: 14px;
+}
+p {
+    margin: 0px 0 13px 0;
+}
+.pro_pic {
+    float: left;
+    width: 200px;
+    padding-left: 20px;
+}
+.pro_pic1 {
+    float: left;
+}
+
+.right_1 .part01 {
+    margin: 15px auto 15px auto;
+    border-bottom: 1px dashed #ccc;
+    padding-bottom: 5px;
+}
+.right_1 .name02 {
+    font-size: 18px;
+    color: #eeb418;
+    padding-bottom: 10px;
+}
+.right_1 .part01 dl {
+    height: 90px;
+}
+.right_1 .part01 dt {
+    width: 88px;
+    height: 60px;
+    background: url(../images/pbg.jpg) no-repeat;
+    padding: 6px 7px;
+    float: left;
+}
+.right_1 .part01 dt {
+    width: 88px;
+    height: 60px;
+    padding: 6px 7px;
+    float: left;
+}
+.right_1 .part01 dd h3 {
+    font-size: 13px;
+    color: #eeb418;
+    font-size: 14px;
+    display: block;
+}
+.right_1 .more {
+    float: right;
+    font-size: 13px;
+    color: #1f2d4a;
+}
+.right_1 .name02 {
+    font-size: 18px;
+    color: #eeb418;
+    padding-bottom: 10px;
+}
+.right_1 .related {
+    width: 655px;
+    float: left;
+    padding: 0px 0px 0 0;
+    overflow: hidden;
+    height: 120px;
+}
+.right_1 .related .LeftBotton {
+    float: left;
+    width: 33px;
+    height: 70px;
+    margin: 15px 0 0 0;
+}
+.right_1 #ISL_Cont {
+    width: 574px;
+    overflow: hidden;
+    float: left;
+    margin: 0px 6px 0 5px;
+}
+.right_1 .scoll_m_con {
+    width: 10000px;
+}
+.right_1 .scoll_m_con #List1, .scoll_m_con #List2 {
+    float: left;
+}
+.right_1 .related p {
+    width: 100px;
+    float: left;
+    margin: 0 auto;
+    display: block;
+    padding-right: 16px;
+}
+.right_1 .related a {
+    display: block;
+    width: 97px;
+    color: #c2b5ac;
+    text-align: center;
+    font-weight: bold;
+    line-height: 30px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.right_1 .related a img {
+    display: block;
+    margin: 0 auto 3px auto;
+}
+.right_1 .related .RightBotton {
+    float: left;
+    width: 33px;
+    height: 70px;
+    margin: 15px 0 0 0;
+}

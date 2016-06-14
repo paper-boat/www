@@ -1,0 +1,14 @@
+.cont{
+	margin-top: 15px;
+   margin-bottom: 20px;
+}
+.cont h2{
+	text-align: center;
+    color: #f60;
+    line-height: 36px;
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+.cont p{
+	font-size: 14px;
+}

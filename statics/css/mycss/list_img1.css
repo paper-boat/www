@@ -1,0 +1,18 @@
+.right_1 .cont {
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+.right_1 .cont .pic01 {
+    float: left;
+    width: 205px;
+    margin-bottom: 20px;
+}
+.highslide {
+    outline: none;
+    text-decoration: none;
+}
+.highslide img {
+    border: 1px solid #D0D0D0;
+    height:196px;
+     width:155px;
+}

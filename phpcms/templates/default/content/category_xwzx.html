@@ -1,0 +1,81 @@
+{template "content", "myheader"}
+     <link rel="stylesheet" href="{CSS_PATH}mycss/category_xwzx.css">
+   		
+   	{template "content", "mybanner"}
+	<!-- 下部分 -->
+	{template "content", "myleft"}
+		     
+   <div class="part clearfix">
+			<div class="name01">热点新闻</div>
+		{pc:content  action="position" posid="23" moreinfo="1" num="2" order="id ASC" catid="14"}
+              {loop $data $v}
+			<div class="pic" style="background: url({IMG_PATH}images/news_pic5_bg.jpg);">
+				<a href="{$v[url]}">
+					<img src="{$v[thumb]}" alt="" height="75" width="109">
+				</a>
+			</div>
+			<div class="tit">
+				<a href="">
+					<h3>{$v[title]}</h3>
+					<span>{$v[inputtime]}</span>
+				</a>
+			</div>
+			<div class="tit2">
+				{str_cut(strip_tags($v[content]),300,'')}
+			</br>
+			<a href="" class="more">阅读全文>></a>
+			</div>
+		</div>
+         {/loop}
+			{/pc}
+		<div class="news_list clearfix">
+			<div class="name01">{$CATEGORYS[14][catname]}</div>
+			{pc:content  action="position" posid="24" moreinfo="3" num="3" order="id ASC" catid="14"}
+              {loop $data $v}
+			<dl>
+				<dd style=" background: url({IMG_PATH}images/news_jt.jpg) no-repeat 0 10px;">
+					<a href="{$v[url]}">{$v[title]}</a>
+				</dd>
+				<dt>{$v[inputtime]}</dt>
+			</dl>
+			{/loop}
+			{/pc}
+			<a href="{$CATEGORYS[14][url]}" class="more">更多>></a>
+		</div>
+
+		<div class="news_list clearfix">
+			<div class="name01">{$CATEGORYS[15][catname]}</div>
+			{pc:content  action="position" posid="25" moreinfo="3" num="3" order="id ASC" catid="15"}
+              {loop $data $v}
+			<dl>
+				<dd style=" background: url({IMG_PATH}images/news_jt.jpg) no-repeat 0 10px;">
+					<a href="{$v[url]}">{$v[title]}</a>
+				</dd>
+				<dt>{$v[inputtime]}</dt>
+			</dl>
+			{/loop}
+			{/pc}
+			<a href="{$CATEGORYS[15][url]}" class="more">更多>></a>
+		</div>
+
+		<div class="news_list clearfix">
+			<div class="name01">{$CATEGORYS[16][catname]}</div>
+			{pc:content  action="position" posid="25" moreinfo="3" num="3" order="id ASC" catid="15"}
+              {loop $data $v}
+			<dl>
+				<dd style=" background: url({IMG_PATH}images/news_jt.jpg) no-repeat 0 10px;">
+					<a href="{$v[url]}">{$v[title]}</a>
+				</dd>
+				<dt>{$v[inputtime]}</dt>
+			</dl>
+			{/loop}
+			{/pc}
+			<a href="{$CATEGORYS[16][url]}" class="more">更多>></a>
+		</div>
+
+
+         </div>
+		
+	</div>
+	
+ {template "content", "myfooter"}

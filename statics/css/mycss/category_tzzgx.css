@@ -1,0 +1,46 @@
+.clearfix {
+    overflow: hidden;
+}
+.part{
+    margin:15px auto 10px auto;
+}
+
+
+.right_1 .in_list {
+    margin-bottom: 15px;
+}
+.right_1 .name03 {
+    font-size: 16px;
+    color: #2889c0;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    position: relative;
+}
+.right_1 .in_list ul li {
+    padding-left: 15px;
+    padding-bottom: 5px;
+    width: 650px;
+    float: left;
+}
+.right_1 .in_list ul li a {
+    width: 97%;
+    padding-left: 5px;
+    display: block;
+    line-height: 30px;
+    color: #778072;
+    border-bottom: #d5d2d2 1px solid;
+    float: left;
+    font-size: 14px;
+}
+.right_1 .in_list li .down {
+    float: right;
+    padding-left: 20px;
+    display: block;
+    line-height: 30px;
+    color: #778072;
+}
+.right_1 .more {
+    float: right;
+    font-size: 13px;
+    color: #1f2d4a;
+}

@@ -1,0 +1,30 @@
+.news{
+    width:620px;
+}
+.right_1 .news .name {
+    margin: 0 auto 10px auto;
+    text-align: center;
+    height: auto;
+    width: 100%;
+    color: #555;
+    line-height: 24px;
+    border-bottom: 1px dashed #ddd;
+}
+.name h2{
+        font-weight: bold;
+    display: block;
+    font-size: 16px;
+    width: 100%;
+    line-height: 30px;
+    padding-bottom: 4px;
+}
+.scott {
+    font-size: 12px;
+     height:60px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    float:left;
+}
+
+

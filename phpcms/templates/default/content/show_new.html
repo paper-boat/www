@@ -1,0 +1,29 @@
+{template "content", "myheader"}
+     <link rel="stylesheet" href="{CSS_PATH}mycss/inverstor.css">
+   	  <link rel="stylesheet" href="{CSS_PATH}mycss/show_new.css">
+   		<div class="effect1" style="background: url({IMG_PATH}images/bannerbg.jpg) no-repeat bottom center;">
+				<img src="{IMG_PATH}images/investor_pic.jpg" alt="">
+			</div>
+		</div>
+	</div>
+	<!-- 下部分 -->
+	   {template "content", "myleft"}
+          
+           <div class="news">
+            <div class="name">
+            	 {pc:content action="lists" num="3" siteid="$siteid" moreinfo="1" order="id ASC" catid="$catid"}
+	           <h2>{$title}</h2>
+	           发布日期：{date("Y-m-d",$inputtime)}
+	           </div>
+	          <p>{$content}</p>
+	          
+	        {/pc}
+            </div>
+        
+<div class="scott"></div>
+     </div>
+		
+	</div>
+	
+ {template "content", "myfooter"}
+

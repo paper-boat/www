@@ -1,0 +1,26 @@
+.cont{
+	width: 620px;
+	margin-top: 15px;
+   margin-bottom: 20px;
+}
+.cont h2{
+	font-family: "微软雅黑";
+	text-align: center;
+    color: #f60;
+    line-height: 36px;
+    font-size: 18px;
+    font-weight:100;
+}
+.cont p{
+	font-size: 14px;
+}
+
+.cont1{
+	width: 620px;
+	margin-top: 15px;
+   margin-bottom: 20px;
+}
+.news p{
+	margin: 0px 0 13px 0;
+	line-height:22px;
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+  <title>北京同仁堂</title>
+  <link rel="stylesheet" href="{CSS_PATH}mycss/header.css">
+  <script src="{JS_PATH}myjs/jquery.js"></script>
+ <script src="{JS_PATH}myjs/xiala.js"></script>
+</head>
+{pc:content action="category" catid="0" num="0" order="listorder ASC"}
+<body {if $top_parentid==31}style="background: url({IMG_PATH}images/bg2.jpg) fixed"
+{elseif $top_parentid==10}style="background: url({IMG_PATH}images/bg3.jpg) fixed"
+{elseif $top_parentid==11}style="background: url({IMG_PATH}images/bg4.jpg) fixed"
+{elseif $top_parentid==12}style="background: url({IMG_PATH}images/bg5.jpg) fixed"
+{elseif $top_parentid==32}style="background: url({IMG_PATH}images/bg6.jpg) fixed"
+{else} style="background: url({IMG_PATH}images/bg.jpg) fixed"{/if}>
+{/pc}
+
+  <div class="box">
+    <!-- 顶部 -->
+    <div class="top-labe" style="background: url({IMG_PATH}images/arrow.png) no-repeat left center;">
+      <a href="##">设为首页</a>
+      <a href="##">网站导航</a>
+      <a href="##" class="language">中文</a>
+      <span id="spa">|</span>
+      <a href="##" class="language">English</a>
+    </div>
+     <div class="head" style="background: url({IMG_PATH}images/conbg.png) repeat-y;">
+      <div class="logo">
+        <a href="##"><img src="{IMG_PATH}images/logo.jpg" alt=""></a>
+      </div>
+      <div class="list">
+        <ul>
+          <li><a href="{siteurl($siteid)}">首页</a></li>
+          <li><a href="##">官方微信</a></li>
+          <li><a href="##">企业邮箱</a></li>
+          <li><a href="##">产品防伪</a></li>
+        </ul>
+        <form action="search.aspx" method="get" name="myFormSeach" id="myFormSeach" >
+                  <div id="search-form" style="background: url({IMG_PATH}images/searchbg.jpg) no-repeat left">
+                     <input name="key_button" id="key_button" value="" class="submit" type="button" style="background: url({IMG_PATH}images/search.jpg) no-repeat left center;">
+                     <input name="key" id="key" class="say" value="站内搜索" type="text">
+                 </div>
+                </form>
+        </div>
+        <div class="slideBox">
+             <!-- 导航栏 -->
+            <div class="menu">
+              <ul>
+            {pc:content action="category" catid="0" num="0" order="listorder ASC"}
+            {loop $data $v}
+            <li class="prod "><a href="{$v[url]}" class="pro" >{$v[catname]}</a>
+              {php $nowid=$v[catid];}
+               {pc:content action="category" catid="$nowid"  order="listorder ASC"}
+                <ul>
+                    {loop $data $v}
+                        <li><a href="{$v[url]}" style="background: url({IMG_PATH}images/menuline.png) repeat-x 0 0;">{$v[catname]}</a></li>
+                    {/loop}
+                  </ul>
+                  {/pc}
+            </li>
+            {/loop}
+            {/pc}
+  </ul> 
+        </div>

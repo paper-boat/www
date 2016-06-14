@@ -1,0 +1,80 @@
+.right_1 .part {
+    margin: 15px auto 10px auto;
+}
+.clearfix {
+    overflow: hidden;
+    _zoom: 1;
+}
+.right_1 .name01 {
+    width:620px;
+    font-size: 16px;
+    color: #0c94af;
+    padding-bottom:5px;
+    border-bottom: #aeaeae 1px dotted;
+    margin-bottom: 10px;
+}
+.right_1 .part .pic {
+    width: 109px;
+    height: 75px;
+    padding: 12px 11px;
+    float: left;
+}
+.right_1 .part .tit {
+    width: 480px;
+    height: 26px;
+    float: left;
+    margin-left:5px;
+}
+.right_1 .part .tit span {
+    font-size: 14px;
+    color: #778072;
+    float: right;
+}
+.right_1 .part .tit h3 {
+    font-size: 14px;
+    color: #0c94af;
+    float: left;
+    width: 388px;
+    height: 26px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.right_1 .part .tit2 {
+    width: 480px;
+    float: left;
+    line-height: 20px;
+    text-indent: 24px;
+     margin-left:5px;
+}
+.right_1 .more {
+    float: right;
+    font-size: 13px;
+    color: #1f2d4a;
+}
+.right_1 .news_list {
+    margin-bottom: 15px;
+    width: 620px;
+}
+.right_1 .news_list dl {
+    width: 620px;
+}
+.right_1 .news_list dl dd {
+    width: 505px;
+    border-bottom: #d5d2d2 1px solid;
+    padding-left: 20px;
+    padding-bottom: 5px;
+    margin: 0 0 0 15px;
+    float: left;
+    height: 30px;
+    line-height: 30px;
+}
+.right_1 .news_list dl dt {
+    width: 65px;
+    border-bottom: #d5d2d2 1px solid;
+    height: 30px;
+    line-height: 30px;
+    padding-bottom: 5px;
+    float: left;
+}
+

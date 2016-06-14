@@ -1,0 +1,100 @@
+body,ul,ol,dl,dd,dt,h1,h2,h3,h4,h5,h6,form,li,input,pre,select,textarea,a{
+	margin:0;padding: 0px;
+	list-style:none;
+	text-decoration:none;
+
+}
+body{
+	font-family: "微软雅黑";font-size: 12px;line-height: 22px;color: #555;
+}
+a{
+	color:#555;
+}
+.box{
+	margin: 0 auto;width: 998px;
+}
+.top-labe{
+	height: 40px;width: 290px;float: right;padding-right: 40px;
+}
+.top-labe a{
+	color: #fff;padding-left:19px;padding-right:10px;line-height: 40px;font-size: 13px;cursor: pointer;float:left;margin-left:1px;
+}
+.top-labe a.language{
+	padding:0 10px;
+}
+#spa{
+	float:left;line-height: 40px;
+}
+.head{
+	margin: 0 auto;width: 936px;padding: 0 31px;float: left;
+}
+.logo{
+    width: 250px;margin-top: 20px;float: left;padding-left: 15px;height: 79px;
+}
+.list{
+	width: 440px;float: right;text-align: center;height: 24px;padding-right: 16px;margin-top: 40px;
+}
+.list ul{
+	float: left;width: 290px;
+}
+.list li{
+	text-align: center;height: 26px;float: left;
+}
+.list a{
+	height: 22px;line-height: 22px;padding: 0 0 0 18px;float: left;text-align: center;display: block;font-size: 15px;color: #555;
+}
+#search-form {
+    width: 128px;float: right;margin-right: 0px;padding-right: 4px;padding-top: 2px;height: 24px;
+}
+#search-form input.submit {
+    width: 20px;height: 23px;border: none;cursor: pointer;float: right;
+}
+#search-form input.say {
+    width: 90px;border: none;padding: 2px 0 0 7px;line-height: 20px;height: 20px;background: none;color: #8d8d8d;float: left;
+}
+.slideBox {
+    width: 936px;position: relative;float: left;
+}
+/*导航栏*/
+.menu{
+    width:930px;height:53px;float: left;left: 0;top:0;position: absolute;
+}
+.menu ul{
+    width:98%;float:left;margin-top:13px;padding-left: 18px;
+}
+.menu li {
+    height: 37px;float: left;position: relative;z-index: 1;width: 180px;
+}
+.menu li  ul {
+    width: 178px;float: left;padding: 0;margin: 0;display: none;
+}
+.menu a {
+    height: 37px;line-height: 37px;display: block;font-size: 16px;width: 140px;padding: 0 0 0 40px;float: left;
+    color: #000;
+}
+.menu .prod  li a {
+    height: 33px;
+    line-height: 33px;
+}
+.menu li  ul li {
+    height: 33px;
+    margin: 0;
+    background: none;
+}
+.n1  ul li a,.n2  ul li a,.n3  ul li a,.n4  ul li a,.n5  ul li a {
+    width:137px;padding: 0 0 0 40px;height: 33px;line-height: 33px;}
+.n1  ul li a:hover{
+    border-left: 10px solid #fb7f23;color: #fb7f23;padding: 0 0 0 30px;
+}
+.n2  ul li a:hover{
+    border-left: 10px solid #0c94af;color: #0c94af;padding: 0 0 0 30px;
+}
+.n3  ul li a:hover{
+    border-left: 10px solid #eeb518;color: #eeb518;padding: 0 0 0 30px;
+}
+.n4  ul li a:hover{
+    border-left: 10px solid #0078c0;color: #0078c0;padding: 0 0 0 30px;
+}
+.n5  ul li a:hover{
+    border-left: 10px solid #a11918;color: #a11918;padding: 0 0 0 30px;
+}
